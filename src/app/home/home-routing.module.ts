@@ -11,7 +11,6 @@ const routes: Routes = [
       {
         path: '',
         component: HomeComponent,
-        // canActivate: [AuthGuardService],
         data: { title: '' },
       },
     ],

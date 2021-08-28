@@ -11,7 +11,6 @@ const routes: Routes = [
       {
         path: '',
         component: ContactComponent,
-        // canActivate: [AuthGuardService],
         data: { title: '' },
       },
     ],

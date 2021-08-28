@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Layout1Component } from './layouts/layout1/layout1.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { RouterModule } from '@angular/router';
 import {
   FaIconLibrary,
@@ -20,7 +19,7 @@ import {
 import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [Layout1Component, SidebarComponent, FooterComponent],
+  declarations: [Layout1Component, SidebarComponent],
   imports: [CommonModule, RouterModule, FontAwesomeModule, ReactiveFormsModule],
   exports: [
     Layout1Component,
